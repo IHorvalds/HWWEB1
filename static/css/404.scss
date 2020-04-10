@@ -81,3 +81,26 @@
         right: -48px;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .f_o_f_image {
+        display: none;
+    }
+}
+@media only screen and (max-height: 600px) {
+    .f_o_f {
+        &_title {
+            font-size: 2em;
+        }
+    
+        &_copy {
+            font-size: 1em;
+            
+        }
+
+        &_compass {
+            width: 150pt;
+            height: 150pt;
+        }
+    }
+}

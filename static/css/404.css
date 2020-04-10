@@ -122,4 +122,23 @@
   bottom: -120px;
   right: -48px;
 }
+
+@media only screen and (max-width: 800px) {
+  .f_o_f_image {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .f_o_f_title {
+    font-size: 2em;
+  }
+  .f_o_f_copy {
+    font-size: 1em;
+  }
+  .f_o_f_compass {
+    width: 150pt;
+    height: 150pt;
+  }
+}
 /*# sourceMappingURL=404.css.map */
